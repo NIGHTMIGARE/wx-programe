@@ -1,0 +1,44 @@
+<!--pages/calc/calc.wxml-->
+<view class="container">
+  <!--屏幕显示-->
+  <view class="onTop">
+    <view class="screen">{{screenData}}</view>
+  </view>
+  <!--键盘操作-->
+  <view class="onBottom">
+    <view class="Row">
+      <view class="item blue" bindtap='onTap' id="{{clear}}">C</view>
+      <view class="item blue" bindtap='onTap' id="{{del}}">←</view>
+      <view class="item blue" bindtap='history' id="{{history}}">history</view>
+      <view class="item blue" bindtap='onTap' id="{{add}}">+</view>
+
+    </view>
+    <view class="Row">
+      <view class="item orange" bindtap='onTap' id="{{id9}}">9</view>
+      <view class="item orange" bindtap='onTap' id="{{id8}}">8</view>
+      <view class="item orange" bindtap='onTap' id="{{id7}}">7</view>
+      <view class="item blue"   bindtap='onTap' id="{{minus}}">-</view>
+
+    </view>
+    <view class="Row">
+      <view class="item orange" bindtap='onTap' id="{{id6}}">6</view>
+      <view class="item orange" bindtap='onTap' id="{{id5}}">5</view>
+      <view class="item orange" bindtap='onTap' id="{{id4}}">4</view>
+      <view class="item blue"   bindtap='onTap' id="{{multiply}}">*</view>
+
+    </view>
+    <view class="Row">
+      <view class="item orange" bindtap='onTap' id="{{id3}}">3</view>
+      <view class="item orange" bindtap='onTap' id="{{id2}}">2</view>
+      <view class="item orange" bindtap='onTap' id="{{id1}}">1</view>
+      <view class="item blue"   bindtap='onTap' id="{{divided}}">/</view>
+
+    </view>
+    <view class="Row">
+      <view class="item zero orange" bindtap='onTap' id="{{id0}}">0</view>
+      <view class="item orange"      bindtap='onTap' id="{{dot}}">.</view>
+      <view class="item blue"        bindtap='onTap' id="{{equal}}">=</view>
+
+    </view>
+  </view>
+</view>

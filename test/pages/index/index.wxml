@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<!--计算器自己手打-->
+<view class="container">
+<view>
+<button class="calb" bindtap='tapName'>计算器</button>
+</view>
+</view>
