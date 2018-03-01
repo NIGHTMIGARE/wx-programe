@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/mypage/mypage",
+    "pages/search/search",
+    "pages/play/play"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F70909",
+    "navigationBarTitleText": "仿网易云",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position":"top",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "推荐音乐"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "热歌榜"
+      },{
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+       
+      }
+    ]
+  }
+}

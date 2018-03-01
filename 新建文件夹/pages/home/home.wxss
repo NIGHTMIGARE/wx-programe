@@ -1,0 +1,43 @@
+/* pages/home/home.wxss */
+
+.pic-row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.item {
+  align-items: row;
+  flex-direction: row;
+}
+
+.rec-text {
+  width: 100%;
+  margin: 10px 0;
+  border-left: solid red;
+  font-size: 15px;
+}
+
+.pic {
+  width: 33%;
+  font-size: 12px;
+  margin: 0 2px;
+}
+
+image {
+  height: 100px;
+  width: 100px;
+}
+.singer-album{
+  width: 200px;
+  height: 100px;
+}
+.song{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  padding:10px 10px;}
+  .latest-music{
+    padding:10px 10px;
+    font-size :15px;
+  }

@@ -1,0 +1,45 @@
+<!--pages/home/home.wxml-->
+
+<scroll-view scroll-y="true" class="container">
+  <view class="recommend">
+    <view class="rec-text">推荐音乐</view>
+    <view class="pic-row">
+      <view class="pic">
+        <image mode="aspectFit" src="{{image1}}"></image>[我想和你谈恋爱]</view>
+      <view class="pic">
+        <image mode="aspectFit" src="{{image2}}"></image>谁说不能做白日梦</view>
+      <view class="pic">
+        <image mode="aspectFit" src="{{image3}}"></image>见素抱朴（民谣+摇滚）</view>
+    </view>
+
+    <view class="pic-row">
+      <view class="pic">
+        <image mode="aspectFit" src="{{image4}}"></image>【民谣】远方除了遥远，一无所有</view>
+      <view class="pic">
+        <image mode="aspectFit" src="{{image5}}"></image>天妒英才，缅怀黄家驹</view>
+      <view class="pic">
+        <image mode="aspectFit" src="{{image6}}"></image>#@￥#￥%￥&%……&……*&</view>
+    </view>
+  </view>
+
+  <view class="latest-music">
+    <view class="music-text">最新音乐</view>
+    <view class="music-list" >
+      <view class="song" bindtap="onPlay">
+        <view class="detail">
+          <view class="song-name">{{song.name}}</view>
+           <view class="singer-album">{{song.singer}}-{{song.album}}</view>
+        </view>
+      
+        <view class="play" >
+          <navigator url="/pages/play/play" open-type="navigate">
+        <image src="{{play}}" mode="aspectFit" ></image>
+        </navigator>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+
+
+</scroll-view>

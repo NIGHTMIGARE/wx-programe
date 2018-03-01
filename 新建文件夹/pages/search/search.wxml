@@ -1,0 +1,5 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+<input class="search-input" placeholder='search'></input>
+<image src="{{simage}}"></image>
+</view>
